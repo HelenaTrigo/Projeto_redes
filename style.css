@@ -11,7 +11,7 @@ html, body{
     background-color: black;
 }
 body{
-    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('imagens/fundo-madeira.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,19 +40,32 @@ main{
     width: 269px;
 }
 
-iframe > img{
-    height: 50%;
-    width: 50%;
-    margin: 5px;
-   
+#iphone > img{
+    height: 471px;
+    width: 269px;
 }
 
-#navegacao{
+#menu{
     position: absolute;
-    background-position: right center;
+    right: 0px;
+    width: 60px;
 }
 
-#navefacao > a > img{
-    height: 20px;
-    width: 20px;
+#menu > a{
+    display: block;
+}
+
+#menu > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.601);
+    transform: translate(-3px,-3px);
+    transition: transform 0.3s, border 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+}
+
+#menu > a > img{
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
