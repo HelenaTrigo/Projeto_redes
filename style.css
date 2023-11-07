@@ -32,13 +32,12 @@ main{
     background: url('imagens/frame-iphone.png') no-repeat;
 }
 
-iframe{
-    height: 74%;
-    width: 85%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+#tela{
+    position: relative;
+    left: 22px;
+    top: 80px;
+    height: 471px;
+    width: 269px;
 }
 
 iframe > img{
